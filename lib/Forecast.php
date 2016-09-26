@@ -44,7 +44,7 @@ class Forecast
     private $_cache_handler;
     private $_cache_timeout;
 
-    const   API_URL = 'https://api.forecast.io/forecast/';
+    const   API_URL = 'https://api.darksky.net/forecast/';
 
     /**
      * Create Forecast object
